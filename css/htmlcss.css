@@ -1,18 +1,97 @@
-body {
-    font-family: sans-serif;
-    text-align: center;
+:root {
+    --gap: 20px;
+}
+* {
+    margin: 0;
+    padding: 0;
 }
 
-.alert {
-    font-size: 24px;
-    font-weight: 500;
+header {
+    padding: 48px 62px 48px 188px;
+    background-color: grey
+    ;
 }
-.success {
-    color: green;
+.navigation-link,.phone {
+    margin-right: 40px;
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+
 }
-.warning {
-    color: orange;
+.navigation-link:hover {
+    color: #FF6C00;
 }
-.error {
-    color: red;
+.rezerve {
+    border: 1px solid #FF6C00;
+    border-radius: 25px;
+    background-color: transparent;
+    padding: 10px 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #fff;
+}
+.container {
+    width: 1140px;
+    margin: 0 auto;
+    margin: ;
+}
+.social {
+    margin-right: 30px;
+}
+.hero-container {
+    background-image: url("../image/barber/barber3.png");
+    padding: 270px 0px 205px 96px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: ;
+}
+.intro {
+        font-family: 'Open Sans';
+        font-weight: 600;
+        font-size: 11px;
+        text-transform: uppercase;
+        color: rgba(157, 164, 189, 0.6);
+        margin-bottom: 20px;
+}
+.title {
+    font-family: 'Raleway', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 72px;
+        color: #FFFFFF;
+        margin-bottom: 20px;
+
+}
+.hero-description {
+    font-family: 'Open Sans', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        color: #9DA4BD;
+        width: 400px;
+}
+.discription {
+    padding: 130px 0px 90px;
+}
+.discription-img {
+    margin-right: 26px;
+}
+.img-container {
+
+}
+.rezervee {
+        border: 1px solid #FF6C00;
+            border-radius: 25px;
+            background-color: transparent;
+            padding: 10px 20px;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 600;
+            font-size: 12px;
+            text-transform: uppercase;
+}
+.sub-title {
+    
 }

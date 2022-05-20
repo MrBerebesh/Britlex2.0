@@ -4,11 +4,75 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title> <link rel="stylesheet" href="./css/htmlcss.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Raleway:wght@700&display=swap"
+        rel="stylesheet">
+    <title>Barber Shop</title>
+    <link rel="stylesheet" href="./css/htmlcss.css">
 </head>
 <body>
-    <p class="alert success">Поповнення рахунку виконано</p>
-    <p class="alert warning">Увага, будуть змінені тарифи</p>
-    <p class="alert error">Помилка проведення транзакції</p>
+    <!-- header -->
+    <header class="header">
+        <nav class="navigation">
+            <a href="#hero" class="navigation-link">О нас</a>
+            <a href="#prices" class="navigation-link">Услуги и цены</a>
+            <a href="#masters" class="navigation-link">Мастера</a>
+            <a href="#contact-us" class="navigation-link">Контакты</a>
+        </nav>
+
+        <div class="contacts">
+            <a href="tel:+380441111111" class="phone">+38 044 111 11 11</a>
+            <button type="button" class="rezerve">ОНЛАЙН-ЗАПИСЬ</button>
+        </div>
+    </header>
+    <!-- main -->
+    <main class="main">
+        <section class="hero" id="hero">
+            <div class="container">
+                            <div class="social">
+                                <a href="#hero" class="logo">
+                                    <img src="./image/barber/Logo.png" alt="Logo" class="logo-img">
+                                </a>
+                                <a href="Youtube" class="youtube">Youtube</a>
+                                <a href="Instagram" class="instagram">Instagram</a>
+                            </div>
+                            <div class="hero-container">
+                                <p class="intro">A hair salon for men in Kyiv</p>
+                                <h1 class="title">BarberShop</h1>
+                                <p class="hero-description">Мы эксперты в модных мужских стрижках.
+                                    Работаем быстро, осторожно и со вкусом.</p>
+                            </div>
+            </div>
+        </section>
+        <section class="discription">
+            <div class="container">
+                <div class="img-container">
+                    <img src="./image/barber/barberr.png" alt="1111" class="discription-img">
+                    <img src="./image/barber/barbrr1.png" alt="111">
+                </div>
+                <div class="content">
+                    <h3 class="sub-title">О НАС</h3>
+                    <h2 class="content-title">Лучший Барбершоп
+                    твоего города</h2>
+                    <p class="text">Если ты хочешь добавить в свой образ больше уверенности – тебе точно к нам.</p>
+                    <p class="text">Мы команда, которая никогда не останавливается на достигнутом
+                    и жаждет перемен. И когда ты попадешь в руки нашего мастера,
+                    то уже никогда не сможешь быть прежним. Мы команда, которая всегда с клиентами "на одной волне". Поэтому, мы всегда
+                    готовы усовершенствовать каждого, кто к нам приходит!</p>
+                    <div class="action">
+                        <button type="button" class="rezervee">ОНЛАЙН-ЗАПИСЬ</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="prices" id="prices"></section>
+        <section class="info"></section>
+        <section class="masters" id="masters"></section>
+        <section class="gallery"></section>
+        <section class="contact-us" id="contact-us"></section>
+    </main>
+    <!-- footer -->
+    <footer class="footer"></footer>
 </body>
 </html>
